@@ -48,46 +48,38 @@ final class SignUpViewController: BaseViewController {
     
     private func bind() {
         
-        signupView.userNameTextField.rx.text
-            .orEmpty
+        let input = SignUpViewModel.Input(userNameTextField: signupView.userNameTextField.rx.text, emailTextField: signupView.emailTextField.rx.text, passwordTextField: signupView.passwordTextField.rx.text, signUpTap: signupView.signupButton.rx.tap, userNameText: viewModel.userName, emailText: viewModel.email, passwordText: viewModel.password)
+        let output = viewModel.transfrom(input: input)
+        
+        output.userNameTextField
             .bind(to: viewModel.userName)
             .disposed(by: disposeBag)
         
-        signupView.emailTextField.rx.text
-            .orEmpty
+        output.emailTextField
             .bind(to: viewModel.email)
             .disposed(by: disposeBag)
         
-        signupView.passwordTextField.rx.text
-            .orEmpty
+        output.passwordTextField
             .bind(to: viewModel.password)
             .disposed(by: disposeBag)
         
+        output.signUpTap
+            .bind { _ in
+                print("회원가입 버튼 Tap")
+            }
+            .disposed(by: disposeBag)
         
-        viewModel.userName
-            .map { $0.count >= 2 }
+        
+        output.userNameValidation
             .bind(to: signupView.emailTextField.rx.isEnabled)
             .disposed(by: disposeBag)
         
-        viewModel.email
-            .map { self.isValidEmail(value: $0) }
+        output.emailValidation
             .bind(to: signupView.passwordTextField.rx.isEnabled)
             .disposed(by: disposeBag)
         
-        viewModel.password
-            .map { $0.count >= 8 }
+        output.passwordValidation
             .bind(to: signupView.signupButton.rx.isEnabled)
             .disposed(by: disposeBag)
-        
-        
-        
-    }
-    
-    
-    private func isValidEmail(value: String) -> Bool {
-        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
-        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-
-        return emailTest.evaluate(with: value)
     }
 }
