@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D07840AA291268EA00C5C0C5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840A9291268EA00C5C0C5 /* BaseView.swift */; };
+		D07840AD2912696D00C5C0C5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840AC2912696D00C5C0C5 /* BaseViewController.swift */; };
+		D07840B829126A4600C5C0C5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D07840B729126A4600C5C0C5 /* SnapKit */; };
+		D07840BA29126A4600C5C0C5 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D07840B929126A4600C5C0C5 /* SnapKit-Dynamic */; };
+		D07840BD29126A5300C5C0C5 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D07840BC29126A5300C5C0C5 /* Then */; };
+		D07840C029126AA800C5C0C5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840BF29126AA800C5C0C5 /* SignUpViewController.swift */; };
+		D07840C329126AC400C5C0C5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840C229126AC400C5C0C5 /* SignUpView.swift */; };
+		D07840C52912700D00C5C0C5 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840C42912700D00C5C0C5 /* BaseTextField.swift */; };
+		D09D84A12912AEEE0069B06F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D09D84A02912AEED0069B06F /* Alamofire */; };
+		D09D84A42912AFB70069B06F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D09D84A32912AFB70069B06F /* RxCocoa */; };
+		D09D84A62912AFB70069B06F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D09D84A52912AFB70069B06F /* RxSwift */; };
 		D0AC367C2911FDEF007C59DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC367B2911FDEF007C59DD /* AppDelegate.swift */; };
 		D0AC367E2911FDEF007C59DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC367D2911FDEF007C59DD /* SceneDelegate.swift */; };
-		D0AC36802911FDEF007C59DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC367F2911FDEF007C59DD /* ViewController.swift */; };
-		D0AC36832911FDEF007C59DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC36812911FDEF007C59DD /* Main.storyboard */; };
 		D0AC36852911FDF0007C59DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AC36842911FDF0007C59DD /* Assets.xcassets */; };
 		D0AC36882911FDF0007C59DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC36862911FDF0007C59DD /* LaunchScreen.storyboard */; };
-		D0AC369129120A0D007C59DD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D0AC369029120A0D007C59DD /* Alamofire */; };
 		D0AC369529120EFD007C59DD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC369429120EFD007C59DD /* APIService.swift */; };
 		D0AC369729121BEC007C59DD /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC369629121BEC007C59DD /* EndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D07840A9291268EA00C5C0C5 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D07840AC2912696D00C5C0C5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D07840BF29126AA800C5C0C5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D07840C229126AC400C5C0C5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = ../../../../../../../Documents/SignUpView.swift; sourceTree = "<group>"; };
+		D07840C42912700D00C5C0C5 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
 		D0AC36782911FDEF007C59DD /* SeSacWeek18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AC367B2911FDEF007C59DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AC367D2911FDEF007C59DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0AC367F2911FDEF007C59DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0AC36822911FDEF007C59DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0AC36842911FDF0007C59DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0AC36872911FDF0007C59DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0AC36892911FDF0007C59DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,7 +47,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AC369129120A0D007C59DD /* Alamofire in Frameworks */,
+				D09D84A62912AFB70069B06F /* RxSwift in Frameworks */,
+				D07840BD29126A5300C5C0C5 /* Then in Frameworks */,
+				D09D84A12912AEEE0069B06F /* Alamofire in Frameworks */,
+				D09D84A42912AFB70069B06F /* RxCocoa in Frameworks */,
+				D07840B829126A4600C5C0C5 /* SnapKit in Frameworks */,
+				D07840BA29126A4600C5C0C5 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				D07840A829125D3D00C5C0C5 /* Base */,
+				D07840AB2912695D00C5C0C5 /* Extension */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -54,8 +71,35 @@
 		D07840A829125D3D00C5C0C5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D07840A9291268EA00C5C0C5 /* BaseView.swift */,
+				D07840AC2912696D00C5C0C5 /* BaseViewController.swift */,
+				D07840C42912700D00C5C0C5 /* BaseTextField.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		D07840AB2912695D00C5C0C5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D07840BE29126A8800C5C0C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D07840C129126AAA00C5C0C5 /* SignUp */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D07840C129126AAA00C5C0C5 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D07840BF29126AA800C5C0C5 /* SignUpViewController.swift */,
+				D07840C229126AC400C5C0C5 /* SignUpView.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		D0AC366F2911FDEF007C59DD = {
@@ -77,11 +121,10 @@
 		D0AC367A2911FDEF007C59DD /* SeSacWeek18 */ = {
 			isa = PBXGroup;
 			children = (
+				D0AC369229120A14007C59DD /* App */,
 				D07840A729125D3000C5C0C5 /* Utility */,
 				D0AC369329120EF4007C59DD /* Network */,
-				D0AC369229120A14007C59DD /* App */,
-				D0AC367F2911FDEF007C59DD /* ViewController.swift */,
-				D0AC36812911FDEF007C59DD /* Main.storyboard */,
+				D07840BE29126A8800C5C0C5 /* View */,
 				D0AC36842911FDF0007C59DD /* Assets.xcassets */,
 				D0AC36862911FDF0007C59DD /* LaunchScreen.storyboard */,
 				D0AC36892911FDF0007C59DD /* Info.plist */,
@@ -124,7 +167,12 @@
 			);
 			name = SeSacWeek18;
 			packageProductDependencies = (
-				D0AC369029120A0D007C59DD /* Alamofire */,
+				D07840B729126A4600C5C0C5 /* SnapKit */,
+				D07840B929126A4600C5C0C5 /* SnapKit-Dynamic */,
+				D07840BC29126A5300C5C0C5 /* Then */,
+				D09D84A02912AEED0069B06F /* Alamofire */,
+				D09D84A32912AFB70069B06F /* RxCocoa */,
+				D09D84A52912AFB70069B06F /* RxSwift */,
 			);
 			productName = SeSacWeek18;
 			productReference = D0AC36782911FDEF007C59DD /* SeSacWeek18.app */;
@@ -155,7 +203,10 @@
 			);
 			mainGroup = D0AC366F2911FDEF007C59DD;
 			packageReferences = (
-				D0AC368F29120A0D007C59DD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D07840B629126A4600C5C0C5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D07840BB29126A5300C5C0C5 /* XCRemoteSwiftPackageReference "Then" */,
+				D09D849F2912AEED0069B06F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D09D84A22912AFB70069B06F /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = D0AC36792911FDEF007C59DD /* Products */;
 			projectDirPath = "";
@@ -173,7 +224,6 @@
 			files = (
 				D0AC36882911FDF0007C59DD /* LaunchScreen.storyboard in Resources */,
 				D0AC36852911FDF0007C59DD /* Assets.xcassets in Resources */,
-				D0AC36832911FDEF007C59DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,10 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AC36802911FDEF007C59DD /* ViewController.swift in Sources */,
 				D0AC367C2911FDEF007C59DD /* AppDelegate.swift in Sources */,
+				D07840C029126AA800C5C0C5 /* SignUpViewController.swift in Sources */,
 				D0AC369729121BEC007C59DD /* EndPoint.swift in Sources */,
+				D07840C52912700D00C5C0C5 /* BaseTextField.swift in Sources */,
+				D07840AA291268EA00C5C0C5 /* BaseView.swift in Sources */,
+				D07840C329126AC400C5C0C5 /* SignUpView.swift in Sources */,
 				D0AC369529120EFD007C59DD /* APIService.swift in Sources */,
+				D07840AD2912696D00C5C0C5 /* BaseViewController.swift in Sources */,
 				D0AC367E2911FDEF007C59DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +249,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0AC36812911FDEF007C59DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0AC36822911FDEF007C59DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0AC36862911FDF0007C59DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -339,7 +385,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSacWeek18/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -353,7 +399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -371,7 +417,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSacWeek18/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -385,7 +431,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -416,7 +462,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D0AC368F29120A0D007C59DD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		D07840B629126A4600C5C0C5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D07840BB29126A5300C5C0C5 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		D09D849F2912AEED0069B06F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "http://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -424,13 +486,46 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		D09D84A22912AFB70069B06F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D0AC369029120A0D007C59DD /* Alamofire */ = {
+		D07840B729126A4600C5C0C5 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D0AC368F29120A0D007C59DD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = D07840B629126A4600C5C0C5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D07840B929126A4600C5C0C5 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D07840B629126A4600C5C0C5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		D07840BC29126A5300C5C0C5 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D07840BB29126A5300C5C0C5 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		D09D84A02912AEED0069B06F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D09D849F2912AEED0069B06F /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		D09D84A32912AFB70069B06F /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D09D84A22912AFB70069B06F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D09D84A52912AFB70069B06F /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D09D84A22912AFB70069B06F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
