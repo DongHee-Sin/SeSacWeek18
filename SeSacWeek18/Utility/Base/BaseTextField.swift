@@ -12,6 +12,8 @@ final class BaseTextField: UITextField {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        initialSetting()
     }
     
     required init?(coder: NSCoder) {

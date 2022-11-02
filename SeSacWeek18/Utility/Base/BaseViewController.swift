@@ -6,11 +6,12 @@
 //
 
 import UIKit
+import RxSwift
 
 
 class BaseViewController: UIViewController {
 
-    //var disposeBag = DisposeBag()
+    var disposeBag = DisposeBag()
     
     
     override func viewDidLoad() {
