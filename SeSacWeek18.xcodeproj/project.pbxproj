@@ -20,6 +20,11 @@
 		D07840C029126AA800C5C0C5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840BF29126AA800C5C0C5 /* SignUpViewController.swift */; };
 		D07840C329126AC400C5C0C5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840C229126AC400C5C0C5 /* SignUpView.swift */; };
 		D07840C52912700D00C5C0C5 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07840C42912700D00C5C0C5 /* BaseTextField.swift */; };
+		D09FA4A029133C4400FE8B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09FA49F29133C4400FE8B1F /* Main.storyboard */; };
+		D09FA4A229133CAF00FE8B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA4A129133CAF00FE8B1F /* ViewController.swift */; };
+		D09FA4A4291351CF00FE8B1F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA4A3291351CF00FE8B1F /* Network.swift */; };
+		D09FA4A6291352FD00FE8B1F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA4A5291352FD00FE8B1F /* ViewModel.swift */; };
+		D09FA4A92913628F00FE8B1F /* SubscriptExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA4A82913628F00FE8B1F /* SubscriptExample.swift */; };
 		D0AC367C2911FDEF007C59DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC367B2911FDEF007C59DD /* AppDelegate.swift */; };
 		D0AC367E2911FDEF007C59DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC367D2911FDEF007C59DD /* SceneDelegate.swift */; };
 		D0AC36852911FDF0007C59DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AC36842911FDF0007C59DD /* Assets.xcassets */; };
@@ -37,6 +42,11 @@
 		D07840BF29126AA800C5C0C5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D07840C229126AC400C5C0C5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = ../../../../../../../Documents/SignUpView.swift; sourceTree = "<group>"; };
 		D07840C42912700D00C5C0C5 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		D09FA49F29133C4400FE8B1F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D09FA4A129133CAF00FE8B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D09FA4A3291351CF00FE8B1F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D09FA4A5291352FD00FE8B1F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D09FA4A82913628F00FE8B1F /* SubscriptExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptExample.swift; sourceTree = "<group>"; };
 		D0AC36782911FDEF007C59DD /* SeSacWeek18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AC367B2911FDEF007C59DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AC367D2911FDEF007C59DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,12 +116,12 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		D07840BE29126A8800C5C0C5 /* View */ = {
+		D07840BE29126A8800C5C0C5 /* Assignment View */ = {
 			isa = PBXGroup;
 			children = (
 				D07840C129126AAA00C5C0C5 /* SignUp */,
 			);
-			path = View;
+			path = "Assignment View";
 			sourceTree = "<group>";
 		};
 		D07840C129126AAA00C5C0C5 /* SignUp */ = {
@@ -122,6 +132,16 @@
 				D03A810F2912C843008C5903 /* SignUpViewModel.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		D09FA4A72913530200FE8B1F /* Lesson View */ = {
+			isa = PBXGroup;
+			children = (
+				D09FA4A129133CAF00FE8B1F /* ViewController.swift */,
+				D09FA4A5291352FD00FE8B1F /* ViewModel.swift */,
+			);
+			name = "Lesson View";
+			path = "수업";
 			sourceTree = "<group>";
 		};
 		D0AC366F2911FDEF007C59DD = {
@@ -147,8 +167,11 @@
 				D07840A729125D3000C5C0C5 /* Utility */,
 				D03A81142912CD3F008C5903 /* Manager */,
 				D0AC369329120EF4007C59DD /* Network */,
-				D07840BE29126A8800C5C0C5 /* View */,
+				D07840BE29126A8800C5C0C5 /* Assignment View */,
+				D09FA4A72913530200FE8B1F /* Lesson View */,
+				D09FA4A82913628F00FE8B1F /* SubscriptExample.swift */,
 				D0AC36842911FDF0007C59DD /* Assets.xcassets */,
+				D09FA49F29133C4400FE8B1F /* Main.storyboard */,
 				D0AC36862911FDF0007C59DD /* LaunchScreen.storyboard */,
 				D0AC36892911FDF0007C59DD /* Info.plist */,
 			);
@@ -169,6 +192,7 @@
 			children = (
 				D0AC369429120EFD007C59DD /* APIService.swift */,
 				D0AC369629121BEC007C59DD /* EndPoint.swift */,
+				D09FA4A3291351CF00FE8B1F /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -244,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09FA4A029133C4400FE8B1F /* Main.storyboard in Resources */,
 				D0AC36882911FDF0007C59DD /* LaunchScreen.storyboard in Resources */,
 				D0AC36852911FDF0007C59DD /* Assets.xcassets in Resources */,
 			);
@@ -264,9 +289,13 @@
 				D07840C52912700D00C5C0C5 /* BaseTextField.swift in Sources */,
 				D07840AA291268EA00C5C0C5 /* BaseView.swift in Sources */,
 				D07840C329126AC400C5C0C5 /* SignUpView.swift in Sources */,
+				D09FA4A229133CAF00FE8B1F /* ViewController.swift in Sources */,
 				D03A81132912CCF4008C5903 /* CommonViewModel.swift in Sources */,
+				D09FA4A6291352FD00FE8B1F /* ViewModel.swift in Sources */,
 				D0AC369529120EFD007C59DD /* APIService.swift in Sources */,
+				D09FA4A92913628F00FE8B1F /* SubscriptExample.swift in Sources */,
 				D07840AD2912696D00C5C0C5 /* BaseViewController.swift in Sources */,
+				D09FA4A4291351CF00FE8B1F /* Network.swift in Sources */,
 				D0AC367E2911FDEF007C59DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

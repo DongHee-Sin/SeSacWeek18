@@ -26,7 +26,7 @@ enum SeSacAPI {
 
 extension SeSacAPI {
     
-    var baseURL: String { "http://api.memolease.com/api/v1/users/" }
+    private var baseURL: String { "http://api.memolease.com/api/v1/users/" }
     
     var url: URL { URL(string: "\(baseURL)\(self.rawValue)")! }
     
